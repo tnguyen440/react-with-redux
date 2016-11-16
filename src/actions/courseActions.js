@@ -1,11 +1,6 @@
 import * as types from './actionTypes';
 import courseApi from '../api/mockCourseApi';
 
-export function createCourse(course) {
-  //debugger;
-  return { type: types.CREATE_COURSE, course};
-}
-
 export function updateCourseSuccess(course) {
   return { type: types.UPDATE_COURSE_SUCCESS, course};
 }
