@@ -12,7 +12,7 @@ const TextInput = ({name, label, onChange, placeholder, value, error}) => {
       <div className="field">
         <input
           type="text"
-          name="name"
+          name={name}
           className="form-control"
           value={value}
           onChange={onChange}/>
